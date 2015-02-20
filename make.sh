@@ -32,7 +32,6 @@ if [ -d target ] ; then
 fi
 
 drush make --tar $makefile ./$target
-echo $revision>$target/revision.txt
 
 if [ -f $expect ] ; then
 	echo "Done."
