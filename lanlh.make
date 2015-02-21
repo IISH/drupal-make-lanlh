@@ -71,6 +71,9 @@ projects[iish_language][subdir] = "custom"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.8"
 
+projects[feed_import][subdir] = "contrib"
+projects[feed_import][version] = "3.4"
+
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.4"
 
