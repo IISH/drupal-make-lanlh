@@ -71,6 +71,12 @@ projects[iish_language][subdir] = "custom"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.8"
 
+projects[backup_migrate][subdir] = "delta"
+projects[backup_migrate][version] = "3.0-beta11
+
+projects[backup_migrate][subdir] = "feeds"
+projects[backup_migrate][version] = "2.0-alpha8"
+
 projects[feed_import][subdir] = "contrib"
 projects[feed_import][version] = "3.4"
 
@@ -100,6 +106,21 @@ projects[media][version] = "1.4"
 
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.9"
+
+projects[field_group][subdir] = "contrib"
+projects[field_group][version] = "1.4"
+
+projects[galleryformatter][subdir] = "contrib"
+projects[galleryformatter][version] = "1.3"
+
+projects[google_analytics][subdir] = "contrib"
+projects[google_analytics][version] = "2.1"
+
+projects[media_youtube][subdir] = "contrib"
+projects[media_youtube][version] = "2.0-rc4"
+
+projects[honeypot][subdir] = "contrib"
+projects[honeypot][version] = "1.17"
 
 projects[filefield_sources_plupload][subdir] = "contrib"
 projects[filefield_sources_plupload][version] = "1.1"
