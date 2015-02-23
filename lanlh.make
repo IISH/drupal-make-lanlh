@@ -72,7 +72,7 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.8"
 
 projects[job_scheduler][subdir] = "contrib"
-projects[job_scheduler][version] = "alpha3"
+projects[job_scheduler][version] = "2.0-alpha3"
 
 projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta11"
