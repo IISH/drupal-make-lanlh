@@ -71,11 +71,11 @@ projects[iish_language][subdir] = "custom"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.8"
 
-projects[backup_migrate][subdir] = "delta"
-projects[backup_migrate][version] = "3.0-beta11
+projects[delta][subdir] = "contrib"
+projects[delta][version] = "3.0-beta11"
 
-projects[backup_migrate][subdir] = "feeds"
-projects[backup_migrate][version] = "2.0-alpha8"
+projects[feeds][subdir] = "contrib"
+projects[feeds][version] = "2.0-alpha8"
 
 projects[feed_import][subdir] = "contrib"
 projects[feed_import][version] = "3.4"
