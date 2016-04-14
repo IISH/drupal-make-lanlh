@@ -2,26 +2,28 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.32"
+projects[drupal][version] = "7.43"
 
 ; Third party libraries, stored in a local git repository.
-libraries[plupload][type] = libraries
-libraries[plupload][download][type] = "git"
-libraries[plupload][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:plupload.git"
-libraries[plupload][download][branch] = "master"
-libraries[plupload][directory_name] = "plupload"
+;libraries[plupload][type] = libraries
+;libraries[plupload][download][type] = "git"
+;libraries[plupload][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:plupload.git"
+;libraries[plupload][download][branch] = "master"
+;libraries[plupload][directory_name] = "plupload"
 
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:ckeditor.git"
-libraries[ckeditor][download][branch] = "master"
+;libraries[ckeditor][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:ckeditor.git"
+;libraries[ckeditor][download][branch] = "master"
+libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
+libraries[ckeditor][download][branch] = "full/4.5.x"
 libraries[ckeditor][directory_name] = "ckeditor"
 
-libraries[jwplayer][type] = libraries
-libraries[jwplayer][download][type] = "git"
-libraries[jwplayer][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:jwplayer.git"
-libraries[jwplayer][download][branch] = "master"
-libraries[jwplayer][directory_name] = "jwplayer"
+;libraries[jwplayer][type] = libraries
+;libraries[jwplayer][download][type] = "git"
+;libraries[jwplayer][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:jwplayer.git"
+;libraries[jwplayer][download][branch] = "master"
+;libraries[jwplayer][directory_name] = "jwplayer"
 
 libraries[colorbox][type] = libraries
 libraries[colorbox][download][type] = "git"
@@ -135,7 +137,7 @@ projects[i18nviews][subdir] = "contrib"
 projects[i18nviews][version] = "3.x-dev"
 
 projects[jw_player][subdir] = "contrib"
-projects[jw_player][version] = "1.0-alpha1"
+projects[jw_player][version] = "2.0-beta2"
 
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "1.0"
@@ -168,7 +170,7 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 
 projects[plupload][subdir] = "contrib"
-projects[plupload][version] = "1.6"
+projects[plupload][version] = "1.7"
 
 projects[print][subdir] = "contrib"
 projects[print][version] = "2.0"
