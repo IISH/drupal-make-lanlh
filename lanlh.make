@@ -115,7 +115,7 @@ projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.9"
 
 projects[field_group][subdir] = "contrib"
-projects[field_group][version] = "1.4"
+projects[field_group][version] = "1.5"
 
 projects[galleryformatter][subdir] = "contrib"
 projects[galleryformatter][version] = "1.3"
