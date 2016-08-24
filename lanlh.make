@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.44"
+projects[drupal][version] = "7.50"
 
 ; Third party libraries, stored in a local git repository.
 ;libraries[plupload][type] = libraries
@@ -121,7 +121,7 @@ projects[galleryformatter][subdir] = "contrib"
 projects[galleryformatter][version] = "1.3"
 
 projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "2.1"
+projects[google_analytics][version] = "2.3"
 
 projects[media_youtube][subdir] = "contrib"
 projects[media_youtube][version] = "2.0-rc4"
@@ -145,7 +145,7 @@ projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "1.0"
 
 projects[ldap][subdir] = "contrib"
-projects[ldap][version] = "2.0-beta8"
+projects[ldap][version] = "2.0-beta11"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
@@ -211,7 +211,7 @@ projects[webform][subdir] = "contrib"
 projects[webform][version] = "4.1"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.2"
+projects[wysiwyg][version] = "2.x-dev"
 
 ; Drupal Themes
 projects[omega][version] = "3.1"
