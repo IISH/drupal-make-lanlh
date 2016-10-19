@@ -47,13 +47,20 @@ projects[lanlh][download][url] = "git://github.com/IISH/drupal-theme-lanlh.git"
 projects[lanlh][download][branch] = "master"
 
 ; Custom modules
-projects[media_colorbox][type] = "module"
-projects[media_colorbox][download][type] = "http"
-projects[media_colorbox][download][url] = "http://git.drupal.org/project/media_colorbox.git"
-projects[media_colorbox][download][branch] = "master"
-projects[media_colorbox][subdir] = "contrib"
+;projects[media_colorbox][type] = "module"
+;projects[media_colorbox][download][type] = "http"
+;projects[media_colorbox][download][url] = "http://git.drupal.org/project/media_colorbox.git"
+;projects[media_colorbox][download][branch] = "master"
+;projects[media_colorbox][subdir] = "contrib"
 
 ; Custom build iish_blocks.
+projects[iish_blocks][version] = "1.0"
+projects[iish_blocks][type] = "module"
+projects[iish_blocks][download][type] = "git"
+projects[iish_blocks][download][url] = "https://github.com/IISH/drupal-module-blocks.git"
+projects[iish_blocks][download][branch] = "master"
+projects[iish_blocks][subdir] = "custom"
+
 ; Custom build iish_images.
 projects[iish_images][version] = "1.0"
 projects[iish_images][type] = "module"
@@ -108,14 +115,14 @@ projects[extlink][version] = "1.18"
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta7"
 
-projects[media][subdir] = "contrib"
-projects[media][version] = "1.4"
-
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.9"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.5"
+
+projects[filefield_sources_plupload][subdir] = "contrib"
+projects[filefield_sources_plupload][version] = "1.1"
 
 projects[galleryformatter][subdir] = "contrib"
 projects[galleryformatter][version] = "1.3"
@@ -123,14 +130,17 @@ projects[galleryformatter][version] = "1.3"
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "2.3"
 
-projects[media_youtube][subdir] = "contrib"
-projects[media_youtube][version] = "2.0-rc4"
-
 projects[honeypot][subdir] = "contrib"
 projects[honeypot][version] = "1.17"
 
-projects[filefield_sources_plupload][subdir] = "contrib"
-projects[filefield_sources_plupload][version] = "1.1"
+projects[media][subdir] = "contrib"
+projects[media][version] = "1.4"
+
+projects[media_colorbox][subdir] = "contrib"
+projects[media_colorbox][version] = "1.0-rc4"
+
+projects[media_youtube][subdir] = "contrib"
+projects[media_youtube][version] = "2.0-rc4"
 
 projects[i18n][subdir] = "contrib"
 projects[i18n][version] = "1.11"
@@ -208,7 +218,7 @@ projects[views][subdir] = "contrib"
 projects[views][version] = "3.14"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "4.1"
+projects[webform][version] = "4.14"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
