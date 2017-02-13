@@ -73,10 +73,10 @@ projects[feed_import][subdir] = "contrib"
 projects[feed_import][version] = "3.4"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.4"
+projects[ctools][version] = "1.12"
 
 projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "2.8"
+projects[colorbox][version] = "2.12"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.8"
