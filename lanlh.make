@@ -112,7 +112,7 @@ projects[honeypot][subdir] = "contrib"
 projects[honeypot][version] = "1.17"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.1"
+projects[media][version] = "2.3"
 
 projects[media_colorbox][subdir] = "contrib"
 projects[media_colorbox][version] = "1.0-rc4"
