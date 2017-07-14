@@ -67,7 +67,7 @@ projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta11"
 
 projects[feeds][subdir] = "contrib"
-projects[feeds][version] = "2.0-alpha8"
+projects[feeds][version] = "2.0-beta3"
 
 projects[feed_import][subdir] = "contrib"
 projects[feed_import][version] = "3.4"
@@ -119,7 +119,7 @@ projects[media_colorbox][subdir] = "contrib"
 projects[media_colorbox][version] = "1.0-rc4"
 
 projects[media_youtube][subdir] = "contrib"
-projects[media_youtube][version] = "2.0-rc4"
+projects[media_youtube][version] = "3.4"
 
 projects[i18n][subdir] = "contrib"
 projects[i18n][version] = "1.11"
